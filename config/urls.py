@@ -65,6 +65,14 @@ urlpatterns = [
         include("notifications.urls"),
     ),
 
+    path(
+
+        "api/visitors/",
+
+        include("visitors.urls"),
+
+    ),
+
 ]
 
 if settings.DEBUG:
