@@ -32,6 +32,8 @@ INSTALLED_APPS = [
     'api',
     'villas',
     'facilities',
+    "notifications",
+    "visitors",
 ]
 
 MIDDLEWARE = [

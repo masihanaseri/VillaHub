@@ -60,6 +60,11 @@ urlpatterns = [
         name="accept-invite",
     ),
 
+    path(
+        "api/notifications/",
+        include("notifications.urls"),
+    ),
+
 ]
 
 if settings.DEBUG:
